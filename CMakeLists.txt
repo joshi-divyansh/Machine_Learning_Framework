@@ -13,3 +13,10 @@ add_executable(csv_validator
 tools/csv_validator.cpp
 src/utils.cpp
 )
+add_executable(random_csv_generator
+tools/random_csv_generator.cpp
+)
+add_executable(min_max_scaler
+tools/min_max_scaler.cpp
+src/utils.cpp
+)
